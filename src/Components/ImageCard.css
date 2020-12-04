@@ -1,0 +1,13 @@
+.image_card{
+    max-width: 350px;
+    height: 250px;
+    object-fit: fill;
+    transition: all 0.2s;
+    border-radius: 5px;
+    margin: 10px 10px;
+    box-shadow: 10px 10px 10px #000;
+}
+
+.image_card:hover {
+    transform: scale(1.01);
+}
